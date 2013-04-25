@@ -7,8 +7,7 @@ use Module::Build 0.3601;
 
 my %module_build_args = (
   "build_requires" => {
-    "Module::Build" => "0.3601",
-    "Test::More" => "0.96"
+    "Module::Build" => "0.3601"
   },
   "configure_requires" => {
     "Module::Build" => "0.3601"
@@ -18,7 +17,7 @@ my %module_build_args = (
     "Steven Haryanto <stevenharyanto\@gmail.com>"
   ],
   "dist_name" => "Business-BankList",
-  "dist_version" => "0.01",
+  "dist_version" => "0.011",
   "license" => "perl",
   "module_name" => "Business::BankList",
   "recommends" => {},
